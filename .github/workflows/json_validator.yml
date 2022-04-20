@@ -27,6 +27,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Json validation
+        run: ls
+        
+      - name: Json validation
         run: python3 -mjson.tool “./configs/config1.json”
 
       # Runs a set of commands using the runners shell
